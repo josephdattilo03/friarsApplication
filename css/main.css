@@ -1,0 +1,35 @@
+/* Make SVG scale nicely */
+#logo svg {
+
+    margin: 50px auto;
+}
+
+/* Default path style before JS kicks in */
+#logo svg path {
+    stroke: black;
+    stroke-width: 2;
+    fill: none;
+    /* start with no fill */
+    transition: fill 1s ease;
+    /* smooth fill fade-in */
+}
+
+
+#greeting {
+    color: #F0F1F2;
+    font-family: "Merriweather";
+}
+
+#fullName {
+    color: #F0F1F2;
+    font-family: "Merriweather";
+}
+
+#hook {
+    color: #F0F1F2;
+    font-family: "Merriweather";
+}
+
+body {
+    background-color: black;
+}
