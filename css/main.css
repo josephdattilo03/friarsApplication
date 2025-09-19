@@ -87,6 +87,7 @@ body::-webkit-scrollbar {
 }
 
 #why-friars {
+    margin-top: 10%;
     opacity: 0;
     max-height: 0;
     overflow: hidden;
